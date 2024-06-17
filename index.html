@@ -11,19 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- create a page with a header that has a nav bar -->
     <header id="home">
+        <div>
+            <h1>Portfolio</h1>
+        </div>
         <nav>
             <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="anchor" href="#top">Home</a></li>
+                <li><a class="anchor" href="#about">About Me</a></li>
+                <li><a class="anchor" href="#portfolio">Portfolio</a></li>
+                <li><a class="anchor" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <!-- create a hero page -->
     <section id="hero">
-        <div class="hero-center unselectable">
+        <div class="hero-center">
             <div class="hero-bg">
                 <h1>Kevin Vongmany</h1>
                 <h2>Full Stack Developer<br>Solutions Engineer</h2>
@@ -31,37 +33,55 @@
         </div>
     </section>
     <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="content">
+                <p>My name is Kevin Vongmany and I am a Full Stack Developer and Solutions Engineer.</p>
+                <p>I have a passion for creating and developing web applications and software solutions.</p> 
+                <p>I am always looking to learn and grow as a developer and engineer.</p>
+            </div>
+        </section>
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <div class="portfolio-center">
-                <div class="portfolio-item">
-                    <img src="assets/images/placeholder.jpg" alt="placeholder">
-                    <h3>Project 1</h3>
-                    <p>Project Description</p>
+            <div class="portfolio-items">
+                <div class="portfolio-item key-project">
+                    <img src="https://placehold.co/800x450" alt="placeholder_key_project">
+                    <h3>Sydney Vivid Festival - Emergency Messaging & Traffic Control</h3>
                 </div>
                 <div class="portfolio-item">
-                    <img src="assets/images/placeholder.jpg" alt="placeholder">
+                    <img src="https://placehold.co/400x225" alt="placeholder_small_1">
                     <h3>Project 2</h3>
-                    <p>Project Description</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="assets/images/placeholder.jpg" alt="placeholder">
+                    <img src="https://placehold.co/400x225" alt="placeholder_small_2">
                     <h3>Project 3</h3>
-                    <p>Project Description</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="assets/images/placeholder.jpg" alt="placeholder">
+                    <img src="https://placehold.co/400x225" alt="placeholder_small_3">
                     <h3>Project 4</h3>
-                    <p>Project Description</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x225" alt="placeholder_small_4">
+                    <h3>Project 5</h3>
                 </div>
             </div>
+        </section>
         <section id="contact">
             <h2>Contact</h2>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/kevin-vongmany/" target="_blank">LinkedIn</a></li>
-            </ul>
+            <div class="content">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/kevin-vongmany/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/kevinvongmany" target="_blank">GitHub</a></li>
+                    <!-- placeholder -->
+                    <li><a href="#contact">Email</a></li>
+                </ul>
+            </div>
+
         </section>    
     </main>
+    <footer>
+        <p>&copy; 2024 Kevin Vongmany</p>
+    </footer>
     
 </body>
 </html>
