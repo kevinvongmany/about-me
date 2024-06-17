@@ -135,6 +135,8 @@ main section h2 {
     text-align: right;
 }
 
+/* generic content styling */
+
 .content {
     display: flex;
     flex-direction: column;
@@ -149,6 +151,8 @@ main section h2 {
     align-self: left;
     width: 100%;
 }
+
+/* portfolio/showcase items styling */
 
 .portfolio-items {
     display: flex;
