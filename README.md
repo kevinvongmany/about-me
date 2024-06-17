@@ -13,7 +13,9 @@ Users can access the HTML source code through the repo or within a Chromium/Fire
 Samples of final webpage can be found here:
 ![A sample screenshot of portfolio design webpage](docs/sample-screenshot.png)
 ![Another sample screenshot of the portfolio design webpage](docs/sample-screenshot-2.png)
-![Another sample screenshot of the portfolio design webpage in a mobile format](docs/sample-screenshot-3.png)
+![Extra samples screenshot of the portfolio design webpage in a mobile format part 1](docs/sample-screenshot-3.png)
+![Extra samples screenshot of the portfolio design webpage in a mobile format part 2](docs/sample-screenshot-4.png)
+![Extra samples screenshot of the portfolio design webpage in a mobile format part 3](docs/sample-screenshot-5.png)
 
 ## Advanced CSS: Portfolio
 
