@@ -15,7 +15,7 @@ Samples of final webpage can be found here:
 ![Another sample screenshot of the portfolio design webpage](docs/sample-screenshot-2.png)
 ![Another sample screenshot of the portfolio design webpage in a mobile format](docs/sample-screenshot-3.png)
 
-## HTML CSS Git Challenge: Code Refactor
+## Advanced CSS: Portfolio
 
 Welcome to this week's Challenge! This week, you'll build a portfolio page.
 
