@@ -149,7 +149,6 @@ main section h2 {
     margin-left: 30px;
     margin-right: auto;
     align-items: center;
-
 }
 
 
@@ -157,7 +156,17 @@ main section h2 {
     width: 50%;
     filter: grayscale(80%);
     padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
+
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+}
+
 .key-project {
     width: 100%;
 }
@@ -187,11 +196,7 @@ main section h2 {
     animation: remove-grayscale 0.5s ease-in-out forwards;
 }
 
-.portfolio-item {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
+
 /* Contact details styling */
 #contact {
     height: 300px;
@@ -207,6 +212,7 @@ main section h2 {
     text-decoration: underline;
     text-decoration-color: var(--secondary-colour);
     text-decoration-thickness: 0.2em;
+    text-align: left;
 }
 
 /* hero styling and animations */
@@ -274,7 +280,7 @@ main section h2 {
 
 }
 
-/* tablet sizing */
+/* responsive sizing for mobile/tablet displays */
 @media screen and (max-width: 1280px) {
     header h1 {
         font-size: 1.5rem;
@@ -283,19 +289,14 @@ main section h2 {
     main {
         width: 80%;
     }
+
     main section {
-        padding-top: 12vh;
-        margin-top: -10vh;
-        display: flex;
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
         color: black;
     }
-    main section h2{
-        width: 100%;
-        text-align: center;
-    }
+    
     .portfolio-items {
         display: flex;
         justify-content: space-around;
@@ -311,38 +312,23 @@ main section h2 {
         height: 100%;
         width: 100%;
     }
+    .content {
+        padding-left: 0;
+        margin-left: 0;
+        width: 100%;
+    }
 
     .content p {
         text-align: center;
     }
-
-
-    
-}
-
-/* mobile sizing */
-@media screen and (max-width: 800px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    main section {
-        padding-top: 12vh;
-        margin-top: -10vh;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
+    #contact ul {
         align-items: center;
-        color: black;
+        justify-content: space-around;
+        margin: 0;
     }
-    main section h2 {
-        width: 100%;
+    #contact li {
+        width: 33%;
         text-align: center;
-    }
-/* 
-    img {
-        height: 100%;
-        width: 100%;
-    } */
+}
     
 }
